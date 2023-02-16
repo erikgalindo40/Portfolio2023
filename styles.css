@@ -57,7 +57,7 @@ strong {
 @media (min-width:1050px) {
     .container {
         display: grid;
-        grid-template-columns: 1fr 70vw;
+        grid-template-columns: 1fr 75vw;
         grid-template-rows: 92vh 1fr;
     }
     .main-container {
@@ -65,11 +65,7 @@ strong {
         max-height: 100vh;
         overflow-y: scroll;
     }
-    .header {
-        max-width: 82%;
-    }
     .footer {
-        max-width: 82%;
         overflow-y: hidden;
     }
 }
@@ -201,6 +197,9 @@ strong {
     }
     .project:last-of-type {
         grid-column: span 4;
+    }
+    .main-container h1 {
+        text-align: center;
     }
 }
 
