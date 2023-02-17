@@ -94,6 +94,7 @@ strong {
     gap: .2em;
     outline: 1px solid white;
     max-width: fit-content;
+    color: inherit;
 }
 .contact-info div {
     font-weight: 300;
@@ -140,7 +141,7 @@ strong {
     border: 2px solid #2e2e2e;
     transform:250ms;
 }
-.project-links a:hover {
+.project-links a:hover, .project-links a:focus {
     transform: translate(0, -8%);
 }
 .project img {
@@ -175,8 +176,14 @@ strong {
     list-style-type: none;
     display: flex;
     gap: 1em;
-    color: #727272;
+    color: #202020;
     font-size: .95rem;
+}
+.project-language-list li {
+    padding: 0.3em;
+    padding-top: .5em;
+    background-color: #e7e7e7;
+    border-radius: 5px;
 }
 @media(min-width:800px) {
     .project-list {
