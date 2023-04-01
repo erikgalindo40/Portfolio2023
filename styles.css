@@ -69,7 +69,9 @@ strong {
         overflow-y: hidden;
     }
 }
-
+.git-icon {
+    vertical-align: bottom;
+}
 /************************** 
             HEADER
 ***************************/
