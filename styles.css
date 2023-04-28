@@ -80,6 +80,9 @@ strong {
     background-color: rgb(6, 6, 139);
     padding: 1em;
 }
+.header h1 {
+    font-size: 3rem;
+}
 .header-about {
     font-weight: 300;
     padding-block: 1em;
@@ -114,8 +117,8 @@ strong {
     padding: 1em;
     background-color: #fcfcfc;
 }
-.main-container h1 {
-    padding-block: .2em;
+.projects-list-header {
+    margin-block: .5em;
 }
 .project-list {
     list-style-type: none;
@@ -216,7 +219,37 @@ strong {
         text-align: center;
     }
 }
-
+h3 {
+    margin-block: .8em;
+}
+.main-content-header {
+    font-size: 2.8rem;
+}
+/************************** 
+        SKILLS LIST
+***************************/
+h3 {
+    background-color: #000000;
+    width: fit-content;
+    color: #e7e7e7;
+    padding: 0.2rem;
+    padding-top: .4rem;
+}
+.skills-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.skill {
+    display: grid;
+    place-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.skill img {
+    height: 3rem;
+    margin-bottom: .5em;
+}
 /************************** 
             FOOTER
 ***************************/
