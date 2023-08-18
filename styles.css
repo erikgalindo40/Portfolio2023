@@ -184,6 +184,7 @@ strong {
 .project-language-list {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
     color: #202020;
     font-size: .95rem;
@@ -256,13 +257,15 @@ h3 {
 footer {
     color: rgb(238, 238, 238);
     background-color: #0d064d;
-    padding: 1.2em;
+    padding-block: 1em;
     display: flex;
     gap: 1em;
-    place-content: center;
+    justify-content: center;
+    place-items: center;
 }
 .footer-logo {
     font-size: 2em;
+    height: fit-content;
     text-decoration: none;
     color: white;
 }
